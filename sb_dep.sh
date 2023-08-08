@@ -72,10 +72,10 @@ apt-get install -y \
 apt-get update
 
 ## Add apt repos
-add-apt-repository main
-add-apt-repository universe
-add-apt-repository restricted
-add-apt-repository multiverse
+add-apt-repository main -y
+add-apt-repository universe -y
+add-apt-repository restricted -y
+add-apt-repository multiverse -y
 apt-get update
 
 ## Install apt Dependencies
