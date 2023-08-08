@@ -97,8 +97,8 @@ else
     echo "==== UNSUPPORTED CPU Architecture ===="
     echo "Install cancelled: $arch is not supported."
     echo "Supported CPU Architecture(s): x86_64"
-    echo "==== UNSUPPORTED CPU Architecture ===="
-    exit 1
+    echo "==== Installing anyway. YOLO ===="
+    #exit 1
 fi
 
 echo "Installing Saltbox Dependencies."
